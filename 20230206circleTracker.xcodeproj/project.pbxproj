@@ -11,6 +11,9 @@
 		E46BAD6F2990C57800C3800E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BAD6E2990C57800C3800E /* ContentView.swift */; };
 		E46BAD712990C57A00C3800E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46BAD702990C57A00C3800E /* Assets.xcassets */; };
 		E46BAD742990C57A00C3800E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46BAD732990C57A00C3800E /* Preview Assets.xcassets */; };
+		E46BAD7B2990C5B300C3800E /* trackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BAD7A2990C5B300C3800E /* trackingView.swift */; };
+		E46BAD7D2990DE2700C3800E /* cameraSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BAD7C2990DE2700C3800E /* cameraSet.swift */; };
+		E46BAD7F2990DEB500C3800E /* cameraOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BAD7E2990DEB500C3800E /* cameraOpenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E46BAD6E2990C57800C3800E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E46BAD702990C57A00C3800E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E46BAD732990C57A00C3800E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E46BAD7A2990C5B300C3800E /* trackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackingView.swift; sourceTree = "<group>"; };
+		E46BAD7C2990DE2700C3800E /* cameraSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraSet.swift; sourceTree = "<group>"; };
+		E46BAD7E2990DEB500C3800E /* cameraOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraOpenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				E46BAD6C2990C57800C3800E /* _0230206circleTrackerApp.swift */,
 				E46BAD6E2990C57800C3800E /* ContentView.swift */,
+				E46BAD7E2990DEB500C3800E /* cameraOpenView.swift */,
+				E46BAD7C2990DE2700C3800E /* cameraSet.swift */,
+				E46BAD7A2990C5B300C3800E /* trackingView.swift */,
 				E46BAD702990C57A00C3800E /* Assets.xcassets */,
 				E46BAD722990C57A00C3800E /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46BAD7F2990DEB500C3800E /* cameraOpenView.swift in Sources */,
 				E46BAD6F2990C57800C3800E /* ContentView.swift in Sources */,
+				E46BAD7B2990C5B300C3800E /* trackingView.swift in Sources */,
 				E46BAD6D2990C57800C3800E /* _0230206circleTrackerApp.swift in Sources */,
+				E46BAD7D2990DE2700C3800E /* cameraSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
